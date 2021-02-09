@@ -1,0 +1,41 @@
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    margin: 10px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+header{
+    height:70px;
+    color: #740001;
+    margin-bottom: 18px;
+    border-bottom: 1.6px solid rgba(0, 0, 0, 0.363);
+}
+
+.mainDiv{
+    height: auto;
+    font-size: 20px;
+    background-color: #740001;
+    color:white;
+    margin: auto;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button{
+    border:none;
+    background-color:#EEBA30;
+    color:white;
+    margin-right: 3px;
+    padding: 8px;
+}
+
+button:hover{
+    border:none;
+    outline: none;
+    background-color:transparent;
+    color: #222F5B;
+    font-size: 13px;
+}
