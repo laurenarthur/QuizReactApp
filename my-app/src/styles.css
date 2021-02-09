@@ -26,7 +26,7 @@ header{
 
 button{
     border:none;
-    background-color:#EEBA30;
+    background-color:rgba(34, 47, 91, 0.87);
     color:white;
     margin-right: 3px;
     padding: 8px;
@@ -36,6 +36,6 @@ button:hover{
     border:none;
     outline: none;
     background-color:transparent;
-    color: #222F5B;
+    color:rgb(117, 117, 117);
     font-size: 13px;
 }

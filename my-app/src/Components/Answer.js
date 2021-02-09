@@ -5,7 +5,7 @@ class Answer extends Component {
   state = {
     Answers: this.props.anwer,
     Clickcheck:true,
-    rightAnaswer: this.props.rightAnaswer
+    rightAnswer: this.props.rightAnswer
   };
 
   // Event on button
@@ -25,7 +25,7 @@ class Answer extends Component {
      
         { this.state.Clickcheck ? this.state.Answers.map(ans => {
           return <button onClick={this.onAnswer}> {ans}</button>;
-        }) : <button > {this.state.rightAnaswer}</button>  } 
+        }) : <button > {this.state.rightAnswer}</button>  } 
 
       </Fragment>
    

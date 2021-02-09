@@ -33,7 +33,7 @@ class Quiz extends Component{
             console.log( data);
           return <div key={ data.id} className="card"> 
                       <h2> { data.quiz}</h2> 
-                     <Answer key={ data.id} rightAnaswer={ data.rightAnaswer} anwer={ data.FindAnswer} />
+                     <Answer key={ data.id} rightAnswer={ data.rightAnswer} anwer={ data.FindAnswer} />
                  </div>
           })
          }
